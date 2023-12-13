@@ -1,6 +1,3 @@
-*{
-    background-color: rgb(227, 222, 232);
-}
 body{
     margin: 0;
     padding: 0;
@@ -34,24 +31,21 @@ header nav{
 ul{
     list-style: none;
 }
-
-.menu-icon{
+.munu-icon{
     background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
     width: 30px;
     background-size: contain;
     background-repeat: no-repeat;
 }
-
 .nav-right-section img{
-    margin-right: 18px;
+    margin-left: 10px;
     border-radius: 60px;
     width: 30px;
 }
 main{
-    margin: 150px;
+    margin: 90px;
     text-align: center;
 }
-
 .main-logo{
     width: 530px;
     margin: 0 auto;
@@ -59,12 +53,13 @@ main{
 }
 .main-input{
     width: 530px;
-    margin: 0 auto;
-    margin-bottom: 35px;
+    margin:0 auto;
+    margin-bottom:35px;
+
 }
 .main-input-container{
-    width: 525px;
-    border: 1px solid #dfe1e5;
+    width:525px;
+    border:1px solid #dfe1e5;
     border-radius: 100px;
     display: flex;
     justify-content: center;
@@ -75,10 +70,12 @@ main{
     width: 530px;
     height: 40px;
     outline: none;
+
 }
-.main-input-container:hover{
+.main-input-container input:hover{
     box-shadow: 0 1px 6px 0px #22212447;
     border-color: #dfe1e5;
+
 }
 .search-icon{
     background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
@@ -88,6 +85,7 @@ main{
     background-position: center;
     background-size: contain;
     padding-left: 8%;
+
 }
 .micro-icon{
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
@@ -123,6 +121,7 @@ main{
     border: 1px solid #dadce0;
 }
 
+
 footer{
     background-color: #f2f2f2;
     width: 100%;
@@ -133,13 +132,14 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     border-color: 1px solid #e4e4e4;
-    bottom: 2%;
+    bottom: 2px;
     padding: 10px;
+
 }
 .footer-left{
     justify-content: left;
 }
-.footer-right{
+.footer-rigth{
     justify-content: right;
 }
 footer ul{
